@@ -7,8 +7,12 @@ let area = rectangulo(num1 , num2)
 console.log(area)
 
 function triangulo(base, altura1){
-    return base * altura1
+    return base * altura1 / 2
 }
+let num3 = 3;
+let num4 = 2;
+const areaTr = triangulo(num3, num4)
+console.log(areaTr)
 
 function largoDelArray(array){
     return array.length
