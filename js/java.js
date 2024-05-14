@@ -33,3 +33,51 @@ function precioFinal(precio){
 }
 const resultado2 = precioFinal(86)
 console.log(resultado2)
+
+function mitad(numero){
+    const mitimiti = 2
+    return numero / mitimiti
+}
+const mitad1 = mitad(40)
+console.log(mitad1)
+
+function diaSegunNumero(array, numero){
+    const array1 = array;
+    const array2 = numero;
+    return array1[array2]
+}
+const arrayDias = diaSegunNumero(["martes", "jueves", "sabado", "domingo"], 2)
+console.log(arrayDias)
+
+function siguiente(numero) {
+    return numero + 1;
+  }
+  
+  function doble(numero) {
+    return 2 * numero;
+  }
+  
+  function siguienteDelDoble(numero) {
+     return siguiente(doble(numero));
+  }
+
+function anterior(numero){
+    const numeroResta = numero - 1
+    return numeroResta
+}
+const valores = anterior(5)
+console.log(valores)
+
+function triple(numero){
+    const tripleta = numero * 3
+    return tripleta
+}
+const multip = triple(9)
+console.log(multip)
+
+function anteriorDelTriple(numero){
+    const triplete = anterior(triple(numero))
+    return triplete
+}
+const hatTriki = anteriorDelTriple(6)
+console.log(hatTriki)
